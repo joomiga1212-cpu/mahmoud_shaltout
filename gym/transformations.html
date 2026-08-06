@@ -298,9 +298,11 @@
             text-transform: uppercase;
             color: #b30000;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 12px;
+            gap: 4px;
+            line-height: 1.2;
         }
 
         .results-title .handwriting {
@@ -736,7 +738,8 @@
 
         <section class="results-section">
             <h2 class="results-title">
-                RESULTS <span class="handwriting">don't</span> LIE
+                <span class="results-line">RESULTS</span>
+                <span class="results-line"><span class="handwriting">don't</span> LIE</span>
             </h2>
             
             <div class="carousel-container">
